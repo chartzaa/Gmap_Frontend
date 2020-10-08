@@ -1,3 +1,22 @@
+## แนะนำ
+- ก่อนที่จะเริ่มนั้นเมื่อ clone project ไปแล้วให้เข้าไปแก้ไขไฟล์ service/constants.js ไฟล์นี้จะเป็นตัวกำหนด endpoint url ของ API กำหนดอย่างไรขึ้นอยุ่กับที่รันโปรเจค API ด้วย url ไหนแค่นั้นเลย
+- ต่อมาหลังจากแก้ไขแล้วก็ให้ใช้ commandline เข้าไปใน project ที่ได้เรา clone มาแล้ว แล้วใช้คำสั้ง 
+```
+npm install 
+#or
+yarn 
+```
+- มันจะ install ตัว library  ต่างๆให้เราเองอัตโนมัติ
+- จากนั้น ใช้คำสั้ง 
+```bash
+npm run dev
+# or
+yarn dev
+```
+- จากนั้นให้กดเข้า link [http://localhost:3000](http://localhost:3000) 
+- เป็นอันเรียบร้อย
+- Project API [https://github.com/chartzaa/Gmap_API](https://github.com/chartzaa/Gmap_API)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
